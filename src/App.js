@@ -30,7 +30,7 @@ class App extends Component {
       <div className='App'>
         <Form click = {this.modalHandler} handleChange = {this.handleChange}/>
         <Preview firstname= {this.state.input}/>
-        {this.state.showModal &&  <Modal/>}
+        {this.state.showModal &&  <Modal click = {this.modalHandler}/>}
        
 
       </div>
