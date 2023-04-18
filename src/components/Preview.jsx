@@ -1,21 +1,21 @@
 import React from 'react';
 import './Preview.css';
 
-const Preview = () => {
+const Preview = (props) => {
     return (
         <div className='Preview_area'>
             <div className='paper'>
                 <div className='lines'>
                     <div className='text'>
-                        First name:
+                        First name:<span>{props.firstname}</span>
                         <br/>
-                        Last name:
+                        Last name:<span>{props.lastname}</span>
                         <br/>
-                        Phone:
+                        Phone: <span>{props.phone}</span>
                         <br/>
-                        Role:
+                        Role: <span>{props.role}</span>
                         <br/>
-                        Message:
+                        Message: <span>{props.message}</span>
                     </div>
                 </div>
             </div>
