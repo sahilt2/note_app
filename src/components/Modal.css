@@ -1,0 +1,48 @@
+.Overlay {
+  /* visibility: hidden; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000080;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #d6ccc2;
+  width: 50%;
+  padding: 1.2rem;
+  border-radius: 4px;
+}
+
+.modal button {
+  padding: 0.5rem;
+  box-shadow: none;
+  border: none;
+  border-radius: 4px;
+}
+.btn1:hover {
+  background-color: #31572c;
+}
+
+.btn1 {
+  background-color: #d62828;
+}
+.btn1:active {
+  transform: scale(0.98);
+}
+
+.btn2 {
+  margin-left: 0.2rem;
+  background-color: #d6ccc2;
+}
+.btn2:hover {
+  background-color: #d62828;
+}
+.btn2:active {
+  transform: scale(0.98);
+}
